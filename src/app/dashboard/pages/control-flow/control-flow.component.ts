@@ -7,6 +7,6 @@ import { CommonModule } from '@angular/common';
   templateUrl: './control-flow.component.html',
   styleUrl: './control-flow.component.scss'
 })
-export class ControlFlowComponent {
+export default class ControlFlowComponent {
 
 }

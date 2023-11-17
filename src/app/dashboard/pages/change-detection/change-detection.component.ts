@@ -7,6 +7,6 @@ import { CommonModule } from '@angular/common';
   templateUrl: './change-detection.component.html',
   styleUrl: './change-detection.component.scss'
 })
-export class ChangeDetectionComponent {
+export  default class ChangeDetectionComponent {
 
 }
