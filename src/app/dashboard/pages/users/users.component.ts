@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { UserService } from '../../../services/user.service';
 
 @Component({
   standalone: true,
@@ -8,5 +9,8 @@ import { CommonModule } from '@angular/common';
   styleUrl: './users.component.scss'
 })
 export default class UsersComponent {
+
+  public userService = inject(UserService);
+
 
 }
